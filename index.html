@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Merit Test — Admission Procedure | Al-Araf Mission</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f4f7fb;
+      --card:#ffffff;
+      --accent:#1e88e5;
+      --muted:#6b7280;
+      --green:#10b981;
+      --gold:#f59e0b;
+      --shadow: 0 8px 24px rgba(18,38,63,0.08);
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Arial,sans-serif;margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:1100px;margin:36px auto;padding:24px}
+
+    /* Header */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center}
+    .badge{display:inline-flex;gap:10px;align-items:center;background:linear-gradient(90deg,var(--accent),#7cc3ff);color:white;padding:8px 12px;border-radius:999px;font-weight:700;box-shadow:var(--shadow)}
+    h1{font-size:28px;margin:12px 0 6px}
+    p.lead{color:var(--muted);margin:0 0 18px}
+
+    /* card */
+    .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:var(--shadow)}
+
+    /* steps */
+    .steps{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+    .step{display:flex;gap:12px;background:#f8fafc;padding:12px;border-radius:10px;align-items:flex-start}
+    .step svg{flex:0 0 40px}
+    .step h4{margin:0 0 6px;font-size:15px}
+    .step p{margin:0;color:var(--muted);font-size:14px}
+
+    /* right column */
+    .right-hero{display:flex;flex-direction:column;gap:12px}
+    .hero-img{border-radius:10px;overflow:hidden;height:260px;background:url('https://images.unsplash.com/photo-1581091012184-7d3a0d0ffb1a?auto=format&fit=crop&w=1200&q=80') center/cover}
+    .cta-row{display:flex;gap:10px}
+    .btn{background:var(--accent);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn.secondary{background:transparent;border:1px solid #e6eefc;color:var(--accent)}
+
+    /* prizes */
+    .prize-list{display:flex;gap:12px;margin-top:18px}
+    .prize{flex:1;padding:14px;border-radius:12px;background:linear-gradient(180deg,#fff,#fbfdff);box-shadow:0 6px 18px rgba(30,136,229,0.06);text-align:center}
+    .prize .rank{font-weight:800;color:var(--accent);font-size:18px}
+    .prize .award{margin:8px 0;font-weight:700}
+    .prize .detail{color:var(--muted);font-size:13px}
+    .gold{border:2px solid rgba(245,158,11,0.12)}
+    .silver{border:2px solid rgba(107,114,128,0.06)}
+
+    /* form */
+    form{display:grid;gap:10px;margin-top:16px}
+    input,select,textarea{padding:10px;border-radius:8px;border:1px solid #e6eefc;font-size:14px}
+    .row{display:flex;gap:10px}
+    .small{flex:1}
+
+    /* footer */
+    footer{margin-top:24px;text-align:center;color:var(--muted);font-size:14px}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr;}
+      .steps{grid-template-columns:1fr}
+      .prize-list{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <div>
+        <div class="badge">🌟 Merit Test 2025</div>
+        <h1>Join the Al‑Araf Mission Merit Test — Admission Procedure</h1>
+        <p class="lead">Showcase your talent and win exciting prizes! Read the simple steps below to apply for the merit-based admission test. Seats are limited — apply early to reserve your slot.</p>
+
+        <div class="card">
+          <h3 style="margin-top:0">Admission Procedure — Quick Steps</h3>
+          <div class="steps">
+            <div class="step">
+              <!-- icon -->
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="6" fill="#E8F5FE"/><path d="M7 11h10M7 7h10M7 15h6" stroke="#1e88e5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <h4>1. Online Application</h4>
+                <p>Fill the short application form below with student's details and upload a passport photo.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="6" fill="#FEF6E7"/><path d="M12 7v6l4 2" stroke="#f59e0b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <h4>2. Select Test Slot</h4>
+                <p>Choose a convenient test date & time from the available slots. Early slots fill fast.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="6" fill="#ECFDF5"/><path d="M12 2v6M8 6h8" stroke="#10b981" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <h4>3. Fee Payment</h4>
+                <p>Pay the nominal test fee online or at the mission office to confirm your registration.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="6" fill="#F3E8FF"/><path d="M7 12l3 3 7-7" stroke="#6d28d9" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <h4>4. Test Day</h4>
+                <p>Arrive 20 minutes early with ID. The test is paper-based and supervised by our faculty.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="6" fill="#FFF7ED"/><path d="M12 17l-5 3 2-5-4-3h5l2-5 2 5h5l-4 3 2 5-5-3z" stroke="#ef4444" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <h4>5. Result & Admission</h4>
+                <p>Top candidates will be announced and invited for admission. Merit-based scholarships available.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="6" fill="#EFF6FF"/><path d="M3 12h18" stroke="#93c5fd" stroke-width="1.6" stroke-linecap="round"/></svg>
+              <div>
+                <h4>6. Join & Celebrate</h4>
+                <p>Complete final admission formalities and join the Al‑Araf family with welcome orientation.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Application form -->
+          <form action="#" method="post" style="margin-top:14px">
+            <div class="row">
+              <input class="small" type="text" name="student_name" placeholder="Student's Full Name" required>
+              <input class="small" type="text" name="father_name" placeholder="Parent/Guardian Name" required>
+            </div>
+            <div class="row">
+              <input class="small" type="text" name="class" placeholder="Applying for Class (e.g., 6th)" required>
+              <input class="small" type="email" name="email" placeholder="Parent Email" required>
+            </div>
+            <div class="row">
+              <input class="small" type="tel" name="phone" placeholder="Contact Number" required>
+              <select class="small" name="slot">
+                <option value="">Choose Test Slot</option>
+                <option>10 Sept 2025 - 9:00 AM</option>
+                <option>11 Sept 2025 - 11:00 AM</option>
+                <option>12 Sept 2025 - 2:00 PM</option>
+              </select>
+            </div>
+            <div class="row">
+              <input type="file" name="photo" accept="image/*" required class="small">
+              <input type="text" name="school" placeholder="Current School (optional)" class="small">
+            </div>
+            <button class="btn" type="submit">Apply Now &amp; Reserve Slot</button>
+          </form>
+
+        </div>
+
+        <!-- Prizes -->
+        <h3 style="margin-top:18px">Attractive Prizes for Top 5 Students</h3>
+        <div class="prize-list">
+          <div class="prize gold">
+            <div class="rank">1st Place</div>
+            <div class="award">₹10,000 + Scholarship</div>
+            <div class="detail">Full merit scholarship for first term + trophy & certificate</div>
+          </div>
+
+          <div class="prize silver">
+            <div class="rank">2nd Place</div>
+            <div class="award">₹7,000 + Partial Scholarship</div>
+            <div class="detail">50% tuition waiver for one term + medal</div>
+          </div>
+
+          <div class="prize">
+            <div class="rank">3rd Place</div>
+            <div class="award">₹5,000</div>
+            <div class="detail">Cash award + certificate of excellence</div>
+          </div>
+
+          <div class="prize">
+            <div class="rank">4th Place</div>
+            <div class="award">₹3,000</div>
+            <div class="detail">Study kit (books & stationery) + certificate</div>
+          </div>
+
+          <div class="prize">
+            <div class="rank">5th Place</div>
+            <div class="award">₹2,000</div>
+            <div class="detail">Merit hamper + appreciation letter</div>
+          </div>
+        </div>
+
+      </div>
+
+      <aside class="right-hero">
+        <div class="card hero-img" title="Merit Test"></div>
+
+        <div class="card">
+          <h4 style="margin:0">Why take the Merit Test?</h4>
+          <ul style="padding-left:18px;margin:8px 0;color:var(--muted)">
+            <li>Merit-based admission & scholarships</li>
+            <li>Expert faculty & supportive environment</li>
+            <li>Extra coaching for toppers</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn" href="#apply">Apply Now</a>
+            <a class="btn secondary" href="#faq">Read FAQ</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h4 style="margin:0">Contact & Help</h4>
+          <p style="margin:8px 0;color:var(--muted)">Call: +91 98765 43210<br>Email: admissions@alarafmission.org</p>
+          <p style="margin:8px 0"><strong>Office Hours:</strong> Mon–Sat, 9 AM – 5 PM</p>
+        </div>
+
+        <div class="card">
+          <h4 style="margin:0">Quick Tips</h4>
+          <ol style="margin:8px 0;color:var(--muted);padding-left:18px">
+            <li>Bring valid ID on test day</li>
+            <li>Stay calm — read questions carefully</li>
+            <li>Prepare with previous year papers</li>
+          </ol>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <footer>
+      © 2025 Al‑Araf Mission • All rights reserved • <a href="#" style="color:var(--muted);text-decoration:underline">Terms &amp; Conditions</a>
+    </footer>
+
+  </div>
+</body>
+</html>
